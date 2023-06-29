@@ -1,5 +1,5 @@
 function longestWord(str) {
-	var words = str.split(" ")
+    var words = str.split(" ")
     var longWord = ""
     for (const word of words) {
     if (word.length >= longWord.length) {
@@ -25,7 +25,7 @@ for (const word of words) {
 }
 
 function wordLengths(str) {
-	var sum = 0
+    var sum = 0
     var lengths = str.split(' ').map(a=> a.length)
     for (var i=0; i<lengths.length; i++) {
     sum += lengths[i];
