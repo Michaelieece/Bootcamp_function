@@ -18,6 +18,6 @@ function enoughAirtime(usage, airtime) {
         else {total += 0.00}
     }
     var result = airtime - total
-    var diff = (total > airtime) ? "R0.00" : 'R' + result.toFixed(2)
+    var diff = (total > airtime) ? "$0.00" : '$' + result.toFixed(2)
     return diff
 }

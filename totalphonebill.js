@@ -14,5 +14,5 @@ function totalPhoneBill(bill) {
 
     } 
 
-    return 'R'+total.toFixed(2);
+    return '$'+total.toFixed(2);
 }
